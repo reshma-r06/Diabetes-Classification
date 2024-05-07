@@ -1,5 +1,10 @@
 # Diabetes-Classification
 
-The Diabetes Dataset is used to predict whether or not a patient has diabetes, based on given features/diagnostic measurements. Here, only female patients are considered with at least 21years old of Pima Indian Heritage.
-Inputs: Age, GlucosePlasma, BloodPressure, Pregnancies, Skin(ThicknessTriceps skin fold thickness), Insulin, BodyMass, DiabetesPedigreeFunction
-Output: Diabetes or no Diabetes(0 or 1)
+The Diabetes Dataset is used to predict whether or not a patient has diabetes, based on given features/diagnostic measurements. Here, only female patients are considered with at least 21years old of Pima Indian Heritage.   
+Inputs: Age, GlucosePlasma, BloodPressure, Pregnancies, Skin(ThicknessTriceps skin fold thickness), Insulin, BodyMass, DiabetesPedigreeFunction      
+Output: Diabetes or no Diabetes(0 or 1)     
+
+- ##### Artificaial Neural Network (ANN):
+  Artificial Neural Networks are the algorithms based on human brain and are used to model and find patterns and forcast issues etc. Artificial Neural Networks contain artificial neurons which are called units. These units are arranged in a series of layers that together constitute the whole Artificial Neural Network in a system. A layer can have only a dozen units or millions of units as this depends on how the complex neural networks will be required to learn the hidden patterns in the dataset. Commonly, Artificial Neural Network has an input layer, an output layer as well as hidden layers. The input layer receives data from the outside world which the neural network needs to analyze or learn about. Then this data passes through one or multiple hidden layers that transform the input into data that is valuable for the output layer. Finally, the output layer provides an output in the form of a response of the Artificial Neural Networks to input data provided. 
+- ##### Standard Scaler :
+  Standardizing a dataset involves rescaling the distribution of values so that the mean of observed values is 0 and the standard deviation is 1. Standardization requires that you know or are able to accurately estimate the mean and standard deviation of observable values. You may be able to estimate these values from your training data, not the entire dataset. StandardScaler, a popular preprocessing technique provided by scikit-learn, offers a simple yet effective method for standardizing feature values. Let’s delve deeper into the workings of StandardScaler
